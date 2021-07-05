@@ -4,161 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6FA2B58C"
+    android:background="#C6122000"
     android:orientation="vertical"
+    android:paddingTop="8dp"
     tools:context=".fragments.PetsFragment">
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
+        style="@style/PetCardView"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#A2B58C"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:text="CoCo"
-            android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#2A4C03"
-            android:textStyle="bold" />
+            style="@style/PetTitle"
+            android:text="CoCo" />
 
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
+        style="@style/PetCardView"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#A2B58C"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:text="MoMo"
-            android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#2A4C03"
-            android:textStyle="bold" />
+            style="@style/PetTitle"
+            android:text="MoMo" />
 
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
+        style="@style/PetCardView"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#A2B58C"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:text="ChuChu"
-            android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#2A4C03"
-            android:textStyle="bold" />
+            style="@style/PetTitle"
+            android:text="ChuChu" />
 
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
+        style="@style/PetCardView"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#A2B58C"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:text="LuLu"
-            android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#2A4C03"
-            android:textStyle="bold" />
+            style="@style/PetTitle"
+            android:text="LuLu" />
 
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
+        style="@style/PetCardView"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#A2B58C"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:text="DD"
-            android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#2A4C03"
-            android:textStyle="bold" />
+            style="@style/PetTitle"
+            android:text="DD" />
 
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
+        style="@style/PetCardView"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#A2B58C"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:text="TT"
-            android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#2A4C03"
-            android:textStyle="bold" />
+            style="@style/PetTitle"
+            android:text="TT" />
 
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
+        style="@style/PetCardView"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#A2B58C"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:text="DoDo"
-            android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#2A4C03"
-            android:textStyle="bold" />
+            style="@style/PetTitle"
+            android:text="DoDo" />
 
     </com.google.android.material.card.MaterialCardView>
 

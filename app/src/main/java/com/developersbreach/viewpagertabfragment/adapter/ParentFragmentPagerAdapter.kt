@@ -15,9 +15,9 @@ class ParentFragmentPagerAdapter(
     override fun createFragment(position: Int): Fragment {
         return when (position) {
             0 -> PetsFragment()
-            1 -> NeedsFragment()
+            1 -> CategoriesFragment()
             2 -> WishlistFragment()
-            else -> CategoriesFragment()
+            else -> NeedsFragment()
         }
     }
 

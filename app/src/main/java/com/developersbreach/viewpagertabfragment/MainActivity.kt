@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             tabLayout,
             viewPager,
         ) { tab, position ->
-            val tabNames = listOf("Pets", "Needs", "Wishlist", "Categories")
+            val tabNames = listOf("Pets", "Categories", "Wishlist", "Needs")
             tab.text = tabNames[position]
         }.attach()
     }
