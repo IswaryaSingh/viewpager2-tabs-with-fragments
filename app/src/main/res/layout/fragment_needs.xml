@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6FD54B81"
+    android:orientation="vertical"
     tools:context=".fragments.NeedsFragment">
 
     <com.google.android.material.card.MaterialCardView
@@ -17,13 +19,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#E6AFEC"
+            android:background="#78C5D8"
             android:gravity="center_vertical"
             android:paddingHorizontal="16dp"
             android:paddingVertical="8dp"
-            android:text="Pedigree"
+            android:text="Dog Food"
             android:textAppearance="?attr/textAppearanceHeadline4"
-            android:textColor="#4C0340"
+            android:textColor="#275C80"
             android:textStyle="bold" />
 
     </com.google.android.material.card.MaterialCardView>
@@ -36,21 +38,127 @@
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#A2B58C"
-        android:gravity="center_vertical"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="8dp"
-        android:text=""
-        android:textAppearance="?attr/textAppearanceHeadline4"
-        android:textColor="#2A4C03"
-        android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#78C5D8"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Collars,Leash"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textColor="#275C80"
+            android:textStyle="bold" />
 
     </com.google.android.material.card.MaterialCardView>
 
-</FrameLayout>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#78C5D8"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Grooming"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textColor="#275C80"
+            android:textStyle="bold" />
 
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#78C5D8"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Bedding"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textColor="#275C80"
+            android:textStyle="bold" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#78C5D8"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Bowls"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textColor="#275C80"
+            android:textStyle="bold" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#78C5D8"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Accessories"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textColor="#275C80"
+            android:textStyle="bold" />    bvbgv`137v6ih ih;o hi     </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#78C5D8"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="Clothing"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textColor="#275C80"
+            android:textStyle="bold" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
 
